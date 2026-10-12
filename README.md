@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![Nager.Date](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![Nager.Date](images/preview.png)](https://github.com/Swift-Tech-Co/Nager.Date)
 
 ## How can I use it?
 
@@ -33,7 +33,7 @@ using System.Text.Json;
 var jsonSerializerOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
 using var httpClient = new HttpClient();
-using var response = await httpClient.GetAsync("https://www.swifttechco.com");
+using var response = await httpClient.GetAsync("https://github.com/Swift-Tech-Co/Nager.Date");
 if (response.IsSuccessStatusCode)
 {
     using var jsonStream = await response.Content.ReadAsStreamAsync();
@@ -63,7 +63,7 @@ This example use the guzzle project
 <?php
 require_once 'vendor/autoload.php';
 $client = new \GuzzleHttp\Client();
-$response = $client->request('GET', 'https://www.swifttechco.com');
+$response = $client->request('GET', 'https://github.com/Swift-Tech-Co/Nager.Date');
 if ($response->getStatusCode() == 200) {
     $json = $response->getBody();
     print_r(json_decode($json));
@@ -87,7 +87,7 @@ import com.google.gson.*;
 public class Main {
   public static void main(String[] args) {
     System.out.println("get holidays");
-    String json = new RestTemplate().getForObject("https://www.swifttechco.com", String.class);
+    String json = new RestTemplate().getForObject("https://github.com/Swift-Tech-Co/Nager.Date", String.class);
     
     Gson gson = new Gson();
     PublicHoliday[] userArray = gson.fromJson(json, PublicHoliday[].class);  
@@ -147,7 +147,7 @@ dependencies {
 import json
 import requests
 
-response = requests.get('https://www.swifttechco.com')
+response = requests.get('https://github.com/Swift-Tech-Co/Nager.Date')
 public_holidays = json.loads(response.content)
 
 for public_holiday in public_holidays:
@@ -157,7 +157,6 @@ for public_holiday in public_holidays:
 </details>
 	
 ## Offline Solution
-
 
 ### NuGet
 The NuGet package is available via NuGet<br>
@@ -244,7 +243,6 @@ if (WeekendSystem.IsWeekend(date, CountryCode.DE))
 The Docker container is available via Docker Hub<br>
 To run a local instance of the Docker image run the following command<br>
 `docker run -p 80:8080 nager/nager-date`
-
 
 ## Holiday types
 What variants of holidays are supported by `Nager.Date`
@@ -336,13 +334,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/Nager.Date
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [nager/Nager.Date](https://github.com/nager/Nager.Date) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
