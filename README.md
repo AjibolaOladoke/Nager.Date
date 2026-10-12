@@ -1,20 +1,16 @@
-[![Build, Test & Publish](https://github.com/nager/Nager.Date/actions/workflows/dotnet.yml/badge.svg)](https://www.swifttechco.com)
+# Nager.Date
 
-# :calendar: Nager.Date - [Official Website](https://www.swifttechco.com)
+## What This Is
+
+Every project needs a shelf of ready answers. product and engineering is one of those shelves, and Nager.Date is the entry on it - the notes, patterns and fixes we reuse when this kind of work comes up.
 
 ## Images
 
-[![Nager.Date](https://opengraph.githubassets.com/1/nager/Nager.Date)](https://www.swifttechco.com)
-
-
-Discover the convenience of easily accessing holidays from **over 200 countries** with Nager.Date. Our popular project utilizes the power of .NET and offers a user-friendly public [REST API](https://www.swifttechco.com) for seamless integration into your application.
-
-You can find an overview of the supported countries [here](https://www.swifttechco.com).
-
+[![Nager.Date](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## How can I use it?
 
-Easily generate a client in your preferred programming language by utilizing our [API documentation](https://www.swifttechco.com), which provides a complete overview of all available endpoints. For more details on client generation, refer to the [OpenAPI Generator documentation](https://www.swifttechco.com).
+Easily generate a client in your preferred programming language by utilizing our API documentation, which provides a complete overview of all available endpoints. For more details on client generation, refer to the OpenAPI Generator documentation.
 
 ### Examples
 
@@ -23,7 +19,7 @@ Easily generate a client in your preferred programming language by utilizing our
   
 There are two ways to use our service
 
-**[NuGet - Nager.Holiday](https://www.swifttechco.com)**
+**NuGet - Nager.Holiday**
 ```
 PM> install-package Nager.Holiday
 ```
@@ -61,7 +57,7 @@ class PublicHoliday
 <details>
   <summary>PHP (click to expand)</summary>
 
-This example use the [guzzle](https://www.swifttechco.com) project
+This example use the guzzle project
 	
 ```php
 <?php
@@ -80,7 +76,7 @@ if ($response->getStatusCode() == 200) {
 <details>
   <summary>Java (click to expand)</summary>
 
-This example use the springframework. Code tested with [onecompiler.com](https://www.swifttechco.com)
+This example use the springframework. Code tested with onecompiler.com
 	
 `Main.java`
 ```java
@@ -164,7 +160,7 @@ for public_holiday in public_holidays:
 
 
 ### NuGet
-The NuGet package is available via [NuGet](https://www.swifttechco.com)<br>
+The NuGet package is available via NuGet<br>
 
 ```
 PM> install-package Nager.Date
@@ -245,7 +241,7 @@ if (WeekendSystem.IsWeekend(date, CountryCode.DE))
 
 ### Docker
 
-The Docker container is available via [Docker Hub](https://www.swifttechco.com)<br>
+The Docker container is available via Docker Hub<br>
 To run a local instance of the Docker image run the following command<br>
 `docker run -p 80:8080 nager/nager-date`
 
@@ -323,8 +319,8 @@ There are several business fields in which it is important to know the holidays 
 
 ## Articles about this project
 
-- [Mark Seemann - Simple holidays](https://www.swifttechco.com)
-- [dotnetpro - Feiertagsrechner (German)](https://www.swifttechco.com)
+- Mark Seemann - Simple holidays
+- dotnetpro - Feiertagsrechner (German)
 
 ---
 
@@ -336,14 +332,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [nager/Nager.Date](https://github.com/nager/Nager.Date) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
